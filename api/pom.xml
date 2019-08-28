@@ -131,6 +131,11 @@
                     <supportedProjectTypes>
                         <supportedProjectType>jar</supportedProjectType>
                     </supportedProjectTypes>
+                    <archive>
+                      <manifestEntries>
+                        <Automatic-Module-Name>java.transaction</Automatic-Module-Name>
+                      </manifestEntries>
+                    </archive>
                     <instructions>
                         <Bundle-Vendor>JBoss by Red Hat</Bundle-Vendor>
                         <Bundle-Version>${spec.bundle.version}</Bundle-Version>
