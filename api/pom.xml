@@ -142,6 +142,9 @@
                         <supportedProjectType>jar</supportedProjectType>
                     </supportedProjectTypes>
                     <archive>
+                      <manifest>
+                        <addDefaultSpecificationEntries>false</addDefaultSpecificationEntries>
+                      </manifest>
                       <manifestEntries>
                         <Automatic-Module-Name>java.transaction</Automatic-Module-Name>
                       </manifestEntries>
