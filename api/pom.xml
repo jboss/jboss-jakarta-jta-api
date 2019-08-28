@@ -67,6 +67,16 @@
             <url>https://www.gnu.org/software/classpath/license.html</url>
             <distribution>repo</distribution>
         </license>
+        <license>
+          <name>Common Development and Distribution License</name>
+          <url>http://repository.jboss.org/licenses/cddl.txt</url>
+          <distribution>repo</distribution>
+        </license>
+        <license>
+          <name>GNU General Public License, Version 2 with the Classpath Exception</name>
+          <url>http://repository.jboss.org/licenses/gpl-2.0-ce.txt</url>
+          <distribution>repo</distribution>
+        </license>
     </licenses>
     <scm>
         <connection>scm:git:https://github.com/jboss/jboss-jakarta-jta-api.git</connection>
@@ -195,6 +205,7 @@
                         <includes>
                           <include>LICENSE.md</include>
                           <include>NOTICE.md</include>
+                          <include>README</include>
                         </includes>
                       </resource>
                     </resources>
