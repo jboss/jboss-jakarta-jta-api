@@ -153,7 +153,10 @@
                         <Specification-Vendor>Oracle Corporation</Specification-Vendor>
                         <Implementation-Vendor>${project.organization.name}</Implementation-Vendor>
                         <Implementation-Vendor-Id>org.glassfish</Implementation-Vendor-Id>
-                        <Import-Package>javax.interceptor.*;version="[1.2,1.2.98)",*</Import-Package>
+                        <Import-Package>
+                            javax.enterprise.context;resolution:=optional,
+                            javax.enterprise.util;resolution:=optional,
+                            *javax.interceptor.*;version="[1.2,1.2.98)",*</Import-Package>
                         <_include>-${basedir}/osgi.bundle</_include>
                     </instructions>
                 </configuration>
